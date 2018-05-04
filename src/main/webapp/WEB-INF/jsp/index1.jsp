@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>财咖联盟首页</title>
-    <link rel="stylesheet" href="../../layui/css/layui.css" />
+    <link rel="stylesheet" href="/<%=this.getServletContext().getContextPath()%>/layui/css/layui.css" />
 
 </head>
 <body>

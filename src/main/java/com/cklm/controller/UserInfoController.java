@@ -27,6 +27,7 @@ public class UserInfoController {
             List<UserInfoVO> list = userJPA.findAll();
             return list;
         }
+        
          @RequestMapping(value = "index",method =RequestMethod.GET)
          public String  forwordIndex(){
                 return "index";

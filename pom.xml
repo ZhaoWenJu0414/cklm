@@ -51,12 +51,13 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- tomcat  如果使用内置tomcat需要注释掉该依赖-->
+		<!-- tomcat  如果使用内置tomcat需要注释掉该依赖
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
+		-->
 
 		<!--  使SpringBoot支持jsp -->
 		<dependency>

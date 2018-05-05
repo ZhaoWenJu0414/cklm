@@ -11,13 +11,16 @@
 
 </style>
 <head>
-    <title>Title</title>
-    <link rel="stylesheet" href="/<%=this.getServletContext().getContextPath()%>/layui/css/layui.css" />
+    <title>财咖联盟</title>
+    <link rel="stylesheet" href="<%=this.getServletContext().getContextPath()%>/layui/css/layui.css" />
+    <link rel="stylesheet" href="<%=this.getServletContext().getContextPath()%>/layui/css/myself.css" />
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo">layui 后台布局</div>
+        <div class="layui-logo">
+                <img src="<%=this.getServletContext().getContextPath()%>/image/logo.jpg" class="my-img">
+        </div>
         <!-- 头部区域（可配合layui已有的水平导航） -->
         <ul class="layui-nav layui-layout-left">
             <li class="layui-nav-item"><a href="">控制台</a></li>
@@ -84,7 +87,7 @@
         © layui.com - 底部固定区域
     </div>
 </div>
-<script src="/<%=this.getServletContext().getContextPath()%>/layui/layui.js"></script>
+<script src="<%=this.getServletContext().getContextPath()%>/layui/layui.js"></script>
 <script>
     //JavaScript代码区域
     layui.use('element', function(){

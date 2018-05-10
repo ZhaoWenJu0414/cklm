@@ -209,9 +209,12 @@
     </div>
 </div>
 <div class="row clearfix">
-    <div class="col-md-12 column" >
+    <div class="col-md-12 column"  align="center">
         <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-                     © 2018 杰神联盟   © 2015~2018 杰神联盟 | 渝ICP备15012822号-1
+                    <span>
+                        © 2018 财咖联盟
+                    </span>
+
         </nav>
     </div>
 </div>

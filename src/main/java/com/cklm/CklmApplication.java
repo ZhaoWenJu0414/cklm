@@ -15,6 +15,5 @@ public class CklmApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CklmApplication.class, args);
-
 	}
 }
